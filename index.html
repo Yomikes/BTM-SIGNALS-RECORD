@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BTM Signals - Verified Trades Q2 2026</title>
+    <title>BTM Signals - Verified Trades April–June 2026</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -42,6 +42,14 @@
             border-radius: 8px;
             text-align: center;
             box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: block;
+        }
+        .metric:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 12px rgba(0,212,170,0.3);
         }
         .metric-value {
             font-size: 32px;
@@ -120,6 +128,33 @@
         .outcome-be { color: #999; font-weight: bold; }
         .r-positive { color: #00d4aa; font-weight: bold; }
         .r-negative { color: #e24b4a; font-weight: bold; }
+        .cta {
+            text-align: center;
+            margin: 30px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #00d4aa;
+            color: #1a1a2e;
+            padding: 16px 30px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+            width: 100%;
+            text-align: center;
+        }
+        .cta-button:hover {
+            background: #00b892;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,212,170,0.3);
+        }
         .footer {
             text-align: center;
             color: white;
@@ -129,27 +164,21 @@
         .footer p {
             margin: 5px 0;
         }
-        .cta {
-            text-align: center;
-            margin: 30px 0;
-        }
-        .cta-button {
-            display: inline-block;
-            background: #00d4aa;
-            color: #1a1a2e;
-            padding: 12px 30px;
-            border-radius: 4px;
-            text-decoration: none;
-            font-weight: bold;
-            margin: 0 10px;
-        }
-        .cta-button:hover {
-            background: #00b892;
-        }
         @media (max-width: 600px) {
             .header h1 { font-size: 28px; }
             .metric-value { font-size: 24px; }
             th, td { font-size: 11px; padding: 8px 4px; }
+            .metrics {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 12px;
+            }
+            .cta {
+                gap: 10px;
+            }
+            .cta-button {
+                padding: 14px 20px;
+                font-size: 15px;
+            }
         }
     </style>
 </head>
@@ -158,53 +187,53 @@
         <!-- Header -->
         <div class="header">
             <h1>📊 BTM VIP SIGNALS</h1>
-            <p>Q2 2026 Verified Performance (March 3 - June 19)</p>
+            <p>Verified Performance (April 1 – June 24, 2026)</p>
         </div>
 
         <!-- Metrics -->
         <div class="metrics">
-            <div class="metric">
-                <div class="metric-value">71.4%</div>
+            <a href="https://buy.stripe.com/5kQ8wPbqW3on5ER1Mw77O2P" class="metric">
+                <div class="metric-value">73%</div>
                 <div class="metric-label">Win Rate</div>
-            </div>
-            <div class="metric">
-                <div class="metric-value">+31R</div>
+            </a>
+            <a href="https://buy.stripe.com/5kQ8wPbqW3on5ER1Mw77O2P" class="metric">
+                <div class="metric-value">+40R</div>
                 <div class="metric-label">Total Profit</div>
-            </div>
-            <div class="metric">
-                <div class="metric-value">8.75x</div>
+            </a>
+            <a href="https://buy.stripe.com/5kQ8wPbqW3on5ER1Mw77O2P" class="metric">
+                <div class="metric-value">5.0x</div>
                 <div class="metric-label">Profit Factor</div>
-            </div>
-            <div class="metric">
-                <div class="metric-value">1.11R</div>
+            </a>
+            <a href="https://buy.stripe.com/5kQ8wPbqW3on5ER1Mw77O2P" class="metric">
+                <div class="metric-value">1.08R</div>
                 <div class="metric-label">Avg/Trade</div>
-            </div>
+            </a>
         </div>
 
         <!-- Summary -->
         <div class="summary">
-            <p><strong>28 Total Trades:</strong> 20 Wins | 4 Losses | 4 Breakeven</p>
-            <p><strong>Total R:</strong> +35R Winning | -4R Losing | 5:1 Win/Loss Ratio</p>
+            <p><strong>37 Total Trades:</strong> 27 Wins | 10 Losses | 0 Breakeven</p>
+            <p><strong>Total R:</strong> +50R Winning | -10R Losing | <strong>5.0:1 Profit Factor</strong></p>
         </div>
 
         <!-- CTA -->
         <div class="cta">
-            <a href="#" class="cta-button">JOIN BTM VIP SIGNALS</a>
-            <a href="#" class="cta-button">50% OFF - LIMITED TIME</a>
+            <a href="https://buy.stripe.com/5kQ8wPbqW3on5ER1Mw77O2P" class="cta-button">🔓 UNLOCK 50% OFF</a>
+            <a href="https://buy.stripe.com/5kQ8wPbqW3on5ER1Mw77O2P" class="cta-button">CLAIM YOUR SPOT NOW</a>
         </div>
 
         <!-- Trades Table -->
         <div class="trades-section">
-            <h2>All 28 Verified Trades</h2>
+            <h2>All 37 Verified Trades</h2>
             <div class="table-wrapper">
                 <table>
                     <thead>
                         <tr>
                             <th>#</th>
                             <th>Date</th>
-                            <th>Direction</th>
+                            <th>Dir</th>
+                            <th>Asset</th>
                             <th>Entry</th>
-                            <th>SL</th>
                             <th>Outcome</th>
                             <th>Result</th>
                         </tr>
@@ -212,271 +241,348 @@
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td>03.03</td>
-                            <td>SELL</td>
-                            <td>24492</td>
-                            <td>24675</td>
-                            <td class="outcome-be">BREAKEVEN</td>
-                            <td class="r-positive">0R</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>04.03</td>
+                            <td>01.04</td>
                             <td>BUY</td>
-                            <td>24955</td>
-                            <td>24806</td>
-                            <td class="outcome-win">TP3</td>
-                            <td class="r-positive">+3R</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>06.03</td>
-                            <td>SELL</td>
-                            <td>6757</td>
-                            <td>6781</td>
+                            <td>MES1</td>
+                            <td>6643</td>
                             <td class="outcome-win">TP1</td>
                             <td class="r-positive">+1R</td>
                         </tr>
                         <tr>
-                            <td>4</td>
-                            <td>10.03</td>
+                            <td>2</td>
+                            <td>06.04</td>
                             <td>BUY</td>
-                            <td>6844</td>
-                            <td>6825</td>
+                            <td>MNQ1</td>
+                            <td>24367</td>
                             <td class="outcome-loss">SL</td>
                             <td class="r-negative">-1R</td>
                         </tr>
                         <tr>
+                            <td>3</td>
+                            <td>10.04</td>
+                            <td>BUY</td>
+                            <td>MES1</td>
+                            <td>6872</td>
+                            <td class="outcome-loss">SL</td>
+                            <td class="r-negative">-1R</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>14.04</td>
+                            <td>BUY</td>
+                            <td>MNQ1</td>
+                            <td>25730</td>
+                            <td class="outcome-win">TP2</td>
+                            <td class="r-positive">+2R</td>
+                        </tr>
+                        <tr>
                             <td>5</td>
-                            <td>11.03</td>
-                            <td>SELL</td>
-                            <td>47471</td>
-                            <td>47738</td>
-                            <td class="outcome-win">TP1</td>
-                            <td class="r-positive">+1R</td>
+                            <td>15.04</td>
+                            <td>BUY</td>
+                            <td>MES1</td>
+                            <td>7029</td>
+                            <td class="outcome-win">TP3</td>
+                            <td class="r-positive">+3R</td>
                         </tr>
                         <tr>
                             <td>6</td>
-                            <td>16.03</td>
-                            <td>BUY</td>
-                            <td>6708</td>
-                            <td>6688</td>
+                            <td>16.04</td>
+                            <td>SELL</td>
+                            <td>MNQ1</td>
+                            <td>26341</td>
                             <td class="outcome-loss">SL</td>
                             <td class="r-negative">-1R</td>
                         </tr>
                         <tr>
                             <td>7</td>
-                            <td>17.03</td>
+                            <td>20.04</td>
                             <td>BUY</td>
-                            <td>25060</td>
-                            <td>24989</td>
-                            <td class="outcome-be">BREAKEVEN</td>
-                            <td class="r-positive">0R</td>
+                            <td>MNQ1</td>
+                            <td>26782</td>
+                            <td class="outcome-loss">SL</td>
+                            <td class="r-negative">-1R</td>
                         </tr>
                         <tr>
                             <td>8</td>
-                            <td>19.03</td>
-                            <td>SELL</td>
-                            <td>24468</td>
-                            <td>24553</td>
+                            <td>24.04</td>
+                            <td>BUY</td>
+                            <td>MNQ1</td>
+                            <td>27275</td>
                             <td class="outcome-win">TP2</td>
                             <td class="r-positive">+2R</td>
                         </tr>
                         <tr>
                             <td>9</td>
-                            <td>27.03</td>
-                            <td>BUY</td>
-                            <td>97</td>
-                            <td>96</td>
-                            <td class="outcome-win">TP2</td>
-                            <td class="r-positive">+2R</td>
-                        </tr>
-                        <tr>
-                            <td>10</td>
-                            <td>31.03</td>
-                            <td>BUY</td>
-                            <td>6488</td>
-                            <td>6446</td>
+                            <td>28.04</td>
+                            <td>SELL</td>
+                            <td>MES1</td>
+                            <td>7160</td>
                             <td class="outcome-win">TP1</td>
                             <td class="r-positive">+1R</td>
                         </tr>
                         <tr>
-                            <td>11</td>
-                            <td>14.04</td>
-                            <td>BUY</td>
-                            <td>25730</td>
-                            <td>25651</td>
+                            <td>10</td>
+                            <td>29.04</td>
+                            <td>SELL</td>
+                            <td>MES1</td>
+                            <td>7165</td>
                             <td class="outcome-win">TP3</td>
                             <td class="r-positive">+3R</td>
                         </tr>
                         <tr>
+                            <td>11</td>
+                            <td>30.04</td>
+                            <td>SELL</td>
+                            <td>MCL1</td>
+                            <td>105.00</td>
+                            <td class="outcome-win">TP1</td>
+                            <td class="r-positive">+1R</td>
+                        </tr>
+                        <tr>
                             <td>12</td>
-                            <td>20.04</td>
-                            <td>BUY</td>
-                            <td>26782</td>
-                            <td>26715</td>
-                            <td class="outcome-be">BREAKEVEN</td>
-                            <td class="r-positive">0R</td>
-                        </tr>
-                        <tr>
-                            <td>13</td>
-                            <td>24.04</td>
-                            <td>BUY</td>
-                            <td>27275</td>
-                            <td>27128</td>
-                            <td class="outcome-win">TP2</td>
-                            <td class="r-positive">+2R</td>
-                        </tr>
-                        <tr>
-                            <td>14</td>
-                            <td>28.04</td>
+                            <td>04.05</td>
                             <td>SELL</td>
-                            <td>7160</td>
-                            <td>7182</td>
-                            <td class="outcome-win">TP1</td>
-                            <td class="r-positive">+1R</td>
-                        </tr>
-                        <tr>
-                            <td>15</td>
-                            <td>05.05</td>
-                            <td>SELL</td>
-                            <td>102</td>
-                            <td>103</td>
-                            <td class="outcome-win">TP1</td>
-                            <td class="r-positive">+1R</td>
-                        </tr>
-                        <tr>
-                            <td>16</td>
-                            <td>07.05</td>
-                            <td>SELL</td>
-                            <td>90</td>
-                            <td>92</td>
+                            <td>MES1</td>
+                            <td>7229</td>
                             <td class="outcome-loss">SL</td>
                             <td class="r-negative">-1R</td>
                         </tr>
                         <tr>
-                            <td>17</td>
+                            <td>13</td>
+                            <td>05.05</td>
+                            <td>SELL</td>
+                            <td>MCL1</td>
+                            <td>102.00</td>
+                            <td class="outcome-win">TP3</td>
+                            <td class="r-positive">+3R</td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>06.05</td>
+                            <td>BUY</td>
+                            <td>MNQ1</td>
+                            <td>28318*</td>
+                            <td class="outcome-win">TP2</td>
+                            <td class="r-positive">+2R</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>07.05</td>
+                            <td>SELL</td>
+                            <td>MCL1</td>
+                            <td>90.99</td>
+                            <td class="outcome-loss">SL</td>
+                            <td class="r-negative">-1R</td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
                             <td>11.05</td>
                             <td>BUY</td>
+                            <td>MYM1</td>
                             <td>49750</td>
-                            <td>49640</td>
+                            <td class="outcome-win">TP1</td>
+                            <td class="r-positive">+1R</td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>12.05</td>
+                            <td>SELL</td>
+                            <td>MES1</td>
+                            <td>7398</td>
                             <td class="outcome-win">TP3</td>
                             <td class="r-positive">+3R</td>
                         </tr>
                         <tr>
                             <td>18</td>
-                            <td>13.05</td>
-                            <td>BUY</td>
-                            <td>103</td>
-                            <td>102</td>
-                            <td class="outcome-be">BREAKEVEN</td>
-                            <td class="r-positive">0R</td>
-                        </tr>
-                        <tr>
-                            <td>19</td>
                             <td>15.05</td>
                             <td>SELL</td>
+                            <td>MYM1</td>
                             <td>49700</td>
-                            <td>49855</td>
                             <td class="outcome-win">TP1</td>
                             <td class="r-positive">+1R</td>
                         </tr>
                         <tr>
-                            <td>20</td>
+                            <td>19</td>
                             <td>18.05</td>
                             <td>BUY</td>
+                            <td>MYM1</td>
                             <td>49720</td>
-                            <td>49632</td>
                             <td class="outcome-loss">SL</td>
                             <td class="r-negative">-1R</td>
                         </tr>
                         <tr>
-                            <td>21</td>
+                            <td>20</td>
                             <td>22.05</td>
                             <td>BUY</td>
+                            <td>MES1</td>
                             <td>7511</td>
-                            <td>7490</td>
+                            <td class="outcome-win">TP1</td>
+                            <td class="r-positive">+1R</td>
+                        </tr>
+                        <tr>
+                            <td>21</td>
+                            <td>26.05</td>
+                            <td>BUY</td>
+                            <td>MCL1</td>
+                            <td>93.77</td>
                             <td class="outcome-win">TP1</td>
                             <td class="r-positive">+1R</td>
                         </tr>
                         <tr>
                             <td>22</td>
-                            <td>28.05</td>
+                            <td>27.05</td>
                             <td>SELL</td>
-                            <td>50570</td>
-                            <td>50668</td>
-                            <td class="outcome-win">TP2</td>
-                            <td class="r-positive">+2R</td>
+                            <td>MES1</td>
+                            <td>7533</td>
+                            <td class="outcome-win">TP1</td>
+                            <td class="r-positive">+1R</td>
                         </tr>
                         <tr>
                             <td>23</td>
-                            <td>29.05</td>
-                            <td>BUY</td>
-                            <td>30413</td>
-                            <td>30341</td>
-                            <td class="outcome-win">TP2</td>
-                            <td class="r-positive">+2R</td>
+                            <td>28.05</td>
+                            <td>SELL</td>
+                            <td>MYM1</td>
+                            <td>50570</td>
+                            <td class="outcome-loss">SL</td>
+                            <td class="r-negative">-1R</td>
                         </tr>
                         <tr>
                             <td>24</td>
-                            <td>01.06</td>
-                            <td>SELL</td>
-                            <td>4520</td>
-                            <td>4526</td>
+                            <td>29.05</td>
+                            <td>BUY</td>
+                            <td>MGC1</td>
+                            <td>Live</td>
                             <td class="outcome-win">TP3</td>
                             <td class="r-positive">+3R</td>
                         </tr>
                         <tr>
                             <td>25</td>
-                            <td>03.06</td>
-                            <td>SELL</td>
-                            <td>7605</td>
-                            <td>7615</td>
-                            <td class="outcome-win">TP2</td>
-                            <td class="r-positive">+2R</td>
+                            <td>29.05</td>
+                            <td>BUY</td>
+                            <td>MNQ1</td>
+                            <td>30413</td>
+                            <td class="outcome-loss">SL</td>
+                            <td class="r-negative">-1R</td>
                         </tr>
                         <tr>
                             <td>26</td>
-                            <td>10.06</td>
+                            <td>01.06</td>
                             <td>SELL</td>
-                            <td>50650</td>
-                            <td>50832</td>
-                            <td class="outcome-win">TP1</td>
-                            <td class="r-positive">+1R</td>
-                        </tr>
-                        <tr>
-                            <td>27</td>
-                            <td>16.06</td>
-                            <td>BUY</td>
-                            <td>52430</td>
-                            <td>52297</td>
+                            <td>MNQ1</td>
+                            <td>30410</td>
                             <td class="outcome-win">TP2</td>
                             <td class="r-positive">+2R</td>
                         </tr>
                         <tr>
-                            <td>28</td>
-                            <td>19.06</td>
+                            <td>27</td>
+                            <td>01.06</td>
                             <td>SELL</td>
-                            <td>51900</td>
-                            <td>52000</td>
+                            <td>MGC1</td>
+                            <td>4520</td>
                             <td class="outcome-win">TP1</td>
                             <td class="r-positive">+1R</td>
+                        </tr>
+                        <tr>
+                            <td>28</td>
+                            <td>02.06</td>
+                            <td>BUY</td>
+                            <td>MCL1</td>
+                            <td>91.85</td>
+                            <td class="outcome-win">TP3</td>
+                            <td class="r-positive">+3R</td>
+                        </tr>
+                        <tr>
+                            <td>29</td>
+                            <td>03.06</td>
+                            <td>SELL</td>
+                            <td>MES1</td>
+                            <td>7605</td>
+                            <td class="outcome-win">TP2</td>
+                            <td class="r-positive">+2R</td>
+                        </tr>
+                        <tr>
+                            <td>30</td>
+                            <td>08.06</td>
+                            <td>BUY</td>
+                            <td>MGC1</td>
+                            <td>4340*</td>
+                            <td class="outcome-loss">SL</td>
+                            <td class="r-negative">-1R</td>
+                        </tr>
+                        <tr>
+                            <td>31</td>
+                            <td>10.06</td>
+                            <td>SELL</td>
+                            <td>MYM1</td>
+                            <td>50650</td>
+                            <td class="outcome-win">TP3</td>
+                            <td class="r-positive">+3R</td>
+                        </tr>
+                        <tr>
+                            <td>32</td>
+                            <td>15.06</td>
+                            <td>BUY</td>
+                            <td>MYM1</td>
+                            <td>52200</td>
+                            <td class="outcome-win">TP1</td>
+                            <td class="r-positive">+1R</td>
+                        </tr>
+                        <tr>
+                            <td>33</td>
+                            <td>16.06</td>
+                            <td>BUY</td>
+                            <td>MYM1</td>
+                            <td>52430</td>
+                            <td class="outcome-win">TP2</td>
+                            <td class="r-positive">+2R</td>
+                        </tr>
+                        <tr>
+                            <td>34</td>
+                            <td>19.06</td>
+                            <td>SELL</td>
+                            <td>MYM1</td>
+                            <td>51900</td>
+                            <td class="outcome-win">TP1</td>
+                            <td class="r-positive">+1R</td>
+                        </tr>
+                        <tr>
+                            <td>35</td>
+                            <td>22.06</td>
+                            <td>SELL</td>
+                            <td>MES1</td>
+                            <td>7544</td>
+                            <td class="outcome-win">TP2</td>
+                            <td class="r-positive">+2R</td>
+                        </tr>
+                        <tr>
+                            <td>36</td>
+                            <td>23.06</td>
+                            <td>SELL</td>
+                            <td>MES1</td>
+                            <td>7465</td>
+                            <td class="outcome-win">TP1</td>
+                            <td class="r-positive">+1R</td>
+                        </tr>
+                        <tr>
+                            <td>37</td>
+                            <td>24.06</td>
+                            <td>SELL</td>
+                            <td>MGC1</td>
+                            <td>4036.5</td>
+                            <td class="outcome-win">TP3</td>
+                            <td class="r-positive">+3R</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
 
-        <!-- Footer CTA -->
-        <div class="cta" style="margin-top: 40px; margin-bottom: 20px;">
-            <a href="#" class="cta-button">CLAIM 50% OFF - TODAY ONLY</a>
-        </div>
-
         <!-- Footer -->
         <div class="footer">
             <p><strong>BTM VIP SIGNALS</strong></p>
-            <p>All 28 trades verified and documented from Q2 2026</p>
-            <p style="margin-top: 15px; font-size: 13px;">FREE ACCESS ENDS TONIGHT | 50% OFF FOR 3 DAYS</p>
+            <p>All 37 trades verified and documented · April 1 – June 24, 2026</p>
+            <p style="margin-top: 15px; font-size: 13px;">* SL used as reference entry · Live = taken during live session</p>
+            <p style="margin-top: 10px; font-size: 13px;">50% OFF LIMITED TIME</p>
         </div>
     </div>
 </body>

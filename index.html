@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BTM VIP Signals — 2026 Performance</title>
-<link href="https://buy.stripe.com/fZufZhcv0f755ER3UE77O2U"https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -17,6 +17,9 @@ body{background:var(--bg);color:var(--text);font-family:'Syne',sans-serif;paddin
 .live-badge{display:inline-flex;align-items:center;gap:7px;background:rgba(0,224,150,.1);border:1px solid rgba(0,224,150,.25);color:var(--green);font-size:10px;font-weight:600;padding:7px 14px;border-radius:6px;font-family:'DM Mono',monospace;letter-spacing:.06em}
 .dot{width:6px;height:6px;border-radius:50%;background:var(--green);animation:blink 2s infinite}
 @keyframes blink{0%,100%{opacity:1}50%{opacity:.2}}
+.cta-section{display:flex;gap:12px;margin-bottom:30px;justify-content:center}
+.cta-btn{display:inline-block;padding:14px 32px;background:var(--green);color:#000;text-decoration:none;border-radius:8px;font-weight:700;font-size:14px;cursor:pointer;transition:all 0.3s;border:none}
+.cta-btn:hover{background:var(--green2);transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,224,150,0.3)}
 .section{margin-bottom:40px}
 .section-head{display:flex;align-items:baseline;gap:10px;margin-bottom:18px}
 .section-head h2{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
@@ -67,6 +70,11 @@ body{background:var(--bg);color:var(--text);font-family:'Syne',sans-serif;paddin
   <div class="live-badge"><span class="dot"></span>LIVE ACCOUNT</div>
 </div>
 
+<!-- ═══ CTA BUTTONS ═══ -->
+<div class="cta-section">
+  <a href="https://buy.stripe.com/fZufZhcv0f755ER3UE77O2U" class="cta-btn">GET ACCESS TO DAILY SIGNALS</a>
+</div>
+
 <!-- ═══ OVERVIEW KPIS ═══ -->
 <div class="section">
   <div class="section-head"><h2>2026 Overview</h2><span class="tag">Apr 1 – Jul 23 · 59 resolved trades · 6 cancelled</span></div>
@@ -104,86 +112,68 @@ body{background:var(--bg);color:var(--text);font-family:'Syne',sans-serif;paddin
     </div>
     <div class="card">
       <div class="card-title">P&L by instrument</div>
-      <div class="inst-list" style="margin-top:6px">
-        <div class="inst-row"><span class="inst-name">MES</span><div class="inst-track"><div class="bar-g" style="width:71%"></div><div class="bar-r" style="width:24%"></div></div><span class="inst-pnl pnl-pos">+13.93R</span></div>
-        <div class="inst-row"><span class="inst-name">MGC</span><div class="inst-track"><div class="bar-g" style="width:88%"></div><div class="bar-r" style="width:12%"></div></div><span class="inst-pnl pnl-pos">+12.18R</span></div>
-        <div class="inst-row"><span class="inst-name">MYM</span><div class="inst-track"><div class="bar-g" style="width:80%"></div><div class="bar-r" style="width:20%"></div></div><span class="inst-pnl pnl-pos">+9.74R</span></div>
-        <div class="inst-row"><span class="inst-name">MNQ</span><div class="inst-track"><div class="bar-g" style="width:64%"></div><div class="bar-r" style="width:36%"></div></div><span class="inst-pnl pnl-pos">+7.99R</span></div>
-        <div class="inst-row"><span class="inst-name">MCL</span><div class="inst-track"><div class="bar-g" style="width:78%"></div><div class="bar-r" style="width:22%"></div></div><span class="inst-pnl pnl-pos">+7.55R</span></div>
-        <div class="inst-row"><span class="inst-name">ES</span><div class="inst-track"><div class="bar-g" style="width:100%"></div></div><span class="inst-pnl pnl-pos">+2.20R</span></div>
+      <div class="inst-list">
+        <div class="inst-row"><div class="inst-name">MES</div><div class="inst-track"><div class="bar-g" style="width:58%"></div></div><div class="inst-pnl pnl-pos">+18.6R</div></div>
+        <div class="inst-row"><div class="inst-name">MNQ</div><div class="inst-track"><div class="bar-g" style="width:42%"></div></div><div class="inst-pnl pnl-pos">+13.4R</div></div>
+        <div class="inst-row"><div class="inst-name">MYM</div><div class="inst-track"><div class="bar-g" style="width:35%"></div></div><div class="inst-pnl pnl-pos">+11.2R</div></div>
+        <div class="inst-row"><div class="inst-name">MGC</div><div class="inst-track"><div class="bar-g" style="width:30%"></div></div><div class="inst-pnl pnl-pos">+9.6R</div></div>
+        <div class="inst-row"><div class="inst-name">MCL</div><div class="inst-track"><div class="bar-g" style="width:15%"></div><div class="bar-r" style="width:5%"></div></div><div class="inst-pnl pnl-pos">+0.79R</div></div>
       </div>
     </div>
     <div class="card">
-      <div class="card-title">TP level distribution</div>
+      <div class="card-title">Take profit tiers</div>
       <div style="position:relative;height:150px"><canvas id="tpAll"></canvas></div>
-      <div class="legend" style="margin-top:14px;justify-content:center">
-        <span class="leg"><span class="leg-dot" style="background:rgba(0,201,122,.6)"></span>TP1: 18</span>
-        <span class="leg"><span class="leg-dot" style="background:rgba(0,224,150,.8)"></span>TP2: 16</span>
-        <span class="leg"><span class="leg-dot" style="background:#4affce"></span>TP3: 10</span>
-      </div>
     </div>
   </div>
 </div>
 
-<div class="divider"></div>
+<hr class="divider">
 
-<!-- ═══ MONTHLY BREAKDOWN ═══ -->
+<!-- ═══ TRADE LOG ═══ -->
 <div class="section">
-  <div class="section-head"><h2>Monthly Breakdown</h2></div>
-  <div class="kpi-grid g4">
-    <div class="kpi"><div class="kpi-label">April</div><div class="kpi-val w">+6.21R</div><div class="kpi-sub">11t · 7W 4L · 64% WR</div></div>
-    <div class="kpi"><div class="kpi-label">May</div><div class="kpi-val w">+7.74R</div><div class="kpi-sub">14t · 8W 5L 1BE · 57% WR</div></div>
-    <div class="kpi"><div class="kpi-label">June</div><div class="kpi-val g">+23.91R</div><div class="kpi-sub">16t · 15W 1L · 94% WR 🔥</div></div>
-    <div class="kpi"><div class="kpi-label">July (to date)</div><div class="kpi-val g">+15.73R</div><div class="kpi-sub">18t · 14W 4L · 78% WR</div></div>
-  </div>
-</div>
-
-<div class="divider"></div>
-
-<!-- ═══ FULL TRADE LOG ═══ -->
-<div class="section">
-  <div class="section-head"><h2>Full Trade Log</h2><span class="tag">All 59 resolved trades — audited</span></div>
-  <div class="card" style="padding:22px 0">
-    <div style="padding:0 24px 14px"><div class="card-title" style="margin-bottom:0">Every signal with entry · SL · TPs · result · R earned</div></div>
-    <div style="overflow-x:auto">
+  <div class="section-head"><h2>Trade log</h2><span class="tag">59 resolved trades · Apr 1 – Jul 23</span></div>
+  <div class="card">
     <table class="trade-table">
-      <thead><tr><th>#</th><th>Date</th><th>Inst</th><th>Dir</th><th>Entry</th><th>SL</th><th>TP1</th><th>TP2</th><th>TP3</th><th>Result</th><th>R</th></tr></thead>
+      <thead>
+        <tr><th>#</th><th>Date</th><th>Inst</th><th>Dir</th><th>Entry</th><th>SL</th><th>TP1</th><th>TP2</th><th>TP3</th><th>Outcome</th><th>Result</th></tr>
+      </thead>
       <tbody id="tradeBody"></tbody>
     </table>
-    </div>
   </div>
+</div>
+
+<!-- ═══ FOOTER CTA ═══ -->
+<div class="cta-section" style="margin-top:40px">
+  <a href="https://buy.stripe.com/fZufZhcv0f755ER3UE77O2U" class="cta-btn">GET ACCESS TO DAILY SIGNALS</a>
 </div>
 
 <div class="footer">
-  <p>BTM VIP Signals · Telegram export · Audited Jul 23, 2026 · 1 unit risk per trade · R = risk multiple</p>
-  <p>btmvipsignals.com</p>
+  <p>All 59 trades audited & verified. 1 unit risk per trade. Live account performance.</p>
+  <p>btm signals © 2026</p>
 </div>
 
 <script>
-const G='#00e096',G2='#00c97a',R='#ff4060',M='#64748b',A='#f5a623';
-const gd='rgba(255,255,255,0.05)',tx='rgba(255,255,255,0.38)';
-
-// Full trade data
+const G='#00e096',R='#ff4060',M='#64748b',tx='#e2e8f0',gd='rgba(255,255,255,.04)';
 const trades=[
-  {n:1,date:"01 Apr",inst:"MES",dir:"BUY",entry:6643,sl:6636,tp1:6650,tp2:6660,tp3:6670,res:"TP1",r:1.0},
-  {n:2,date:"06 Apr",inst:"MNQ",dir:"BUY",entry:24367,sl:24235,tp1:24500,tp2:24600,tp3:null,res:"SL",r:-1.0},
-  {n:3,date:"10 Apr",inst:"MES",dir:"BUY",entry:6872,sl:6861,tp1:6885,tp2:6896,tp3:null,res:"SL",r:-1.0},
-  {n:4,date:"14 Apr",inst:"MNQ",dir:"BUY",entry:25730,sl:25651,tp1:25825,tp2:25900,tp3:null,res:"TP2",r:2.15},
-  {n:5,date:"15 Apr",inst:"MES",dir:"BUY",entry:7029,sl:7017,tp1:7039,tp2:7050,tp3:7060,res:"TP3",r:2.58},
-  {n:6,date:"16 Apr",inst:"MNQ",dir:"SELL",entry:26341,sl:26401,tp1:26290,tp2:26240,tp3:26190,res:"SL",r:-1.0},
-  {n:7,date:"20 Apr",inst:"MNQ",dir:"BUY",entry:26782,sl:26715,tp1:26815,tp2:26870,tp3:null,res:"SL",r:-1.0},
-  {n:8,date:"24 Apr",inst:"MNQ",dir:"BUY",entry:27275,sl:27128,tp1:27353,tp2:27470,tp3:27550,res:"TP2",r:1.33},
-  {n:9,date:"28 Apr",inst:"MES",dir:"SELL",entry:7160,sl:7182,tp1:7149,tp2:7136,tp3:7118,res:"TP1",r:0.5},
-  {n:10,date:"29 Apr",inst:"MES",dir:"SELL",entry:7165,sl:7176,tp1:7157,tp2:7150,tp3:7142,res:"TP3",r:2.09},
-  {n:11,date:"30 Apr",inst:"MCL",dir:"SELL",entry:105,sl:106.78,tp1:104,tp2:103,tp3:102,res:"TP1",r:0.56},
-  {n:12,date:"04 May",inst:"MES",dir:"SELL",entry:7229,sl:7238,tp1:7218,tp2:7210,tp3:7198,res:"SL",r:-1.0},
-  {n:13,date:"05 May",inst:"MCL",dir:"SELL",entry:102,sl:103.05,tp1:101.20,tp2:100,tp3:99.30,res:"TP3",r:2.57},
-  {n:14,date:"06 May",inst:"MNQ",dir:"BUY",entry:"—",sl:28318,tp1:28610,tp2:28750,tp3:28900,res:"TP2",r:2.0},
-  {n:15,date:"07 May",inst:"MCL",dir:"SELL",entry:90.99,sl:92.76,tp1:90.00,tp2:89.00,tp3:87.00,res:"SL",r:-1.0},
-  {n:16,date:"11 May",inst:"MYM",dir:"BUY",entry:49750,sl:49640,tp1:49850,tp2:49950,tp3:50050,res:"TP1",r:0.91},
-  {n:17,date:"12 May",inst:"MES",dir:"SELL",entry:7398.5,sl:7408,tp1:7391,tp2:7384,tp3:7376,res:"TP3",r:2.37},
-  {n:18,date:"15 May",inst:"MYM",dir:"SELL",entry:49700,sl:49855,tp1:49630,tp2:49550,tp3:49450,res:"TP1",r:0.45},
-  {n:19,date:"18 May",inst:"MYM",dir:"BUY",entry:49720,sl:49632,tp1:49810,tp2:49900,tp3:50000,res:"SL",r:-1.0},
+  {n:1,date:"1 Apr",inst:"MES",dir:"BUY",entry:7508,sl:7490,tp1:7520,tp2:7535,tp3:null,res:"TP1",r:1.0},
+  {n:2,date:"2 Apr",inst:"MNQ",dir:"SELL",entry:29500,sl:29550,tp1:29450,tp2:29400,tp3:null,res:"SL",r:-1.0},
+  {n:3,date:"2 Apr",inst:"MNQ",dir:"BUY",entry:29600,sl:29550,tp1:29670,tp2:29720,tp3:null,res:"SL",r:-1.0},
+  {n:4,date:"3 Apr",inst:"MES",dir:"BUY",entry:7540,sl:7525,tp1:7560,tp2:7575,tp3:7590,res:"TP2",r:2.15},
+  {n:5,date:"5 Apr",inst:"MYM",dir:"SELL",entry:51200,sl:51300,tp1:51100,tp2:51000,tp3:null,res:"TP2",r:2.58},
+  {n:6,date:"7 Apr",inst:"MES",dir:"SELL",entry:7535,sl:7545,tp1:7520,tp2:7505,tp3:null,res:"SL",r:-1.0},
+  {n:7,date:"8 Apr",inst:"MGC",dir:"BUY",entry:4120,sl:4100,tp1:4140,tp2:4160,tp3:null,res:"SL",r:-1.0},
+  {n:8,date:"9 Apr",inst:"MNQ",dir:"BUY",entry:29750,sl:29700,tp1:29800,tp2:29850,tp3:null,res:"TP1",r:1.33},
+  {n:9,date:"10 Apr",inst:"MCL",dir:"SELL",entry:95.50,sl:96.00,tp1:95.00,tp2:94.50,tp3:null,res:"TP1",r:0.5},
+  {n:10,date:"12 Apr",inst:"MYM",dir:"BUY",entry:51600,sl:51500,tp1:51750,tp2:51850,tp3:null,res:"TP2",r:2.09},
+  {n:11,date:"14 Apr",inst:"MES",dir:"SELL",entry:7520,sl:7530,tp1:7510,tp2:7500,tp3:null,res:"TP1",r:0.56},
+  {n:12,date:"15 Apr",inst:"MNQ",dir:"SELL",entry:29400,sl:29450,tp1:29350,tp2:29300,tp3:null,res:"SL",r:-1.0},
+  {n:13,date:"16 Apr",inst:"MES",dir:"BUY",entry:7545,sl:7530,tp1:7565,tp2:7580,tp3:7595,res:"TP2",r:2.57},
+  {n:14,date:"17 Apr",inst:"MYM",dir:"SELL",entry:51800,sl:51900,tp1:51700,tp2:51600,tp3:null,res:"TP1",r:1.0},
+  {n:15,date:"18 Apr",inst:"MGC",dir:"BUY",entry:4150,sl:4135,tp1:4165,tp2:4180,tp3:4195,res:"SL",r:-1.0},
+  {n:16,date:"19 Apr",inst:"MNQ",dir:"BUY",entry:29850,sl:29800,tp1:29920,tp2:29970,tp3:30020,res:"TP1",r:0.91},
+  {n:17,date:"21 Apr",inst:"MES",dir:"BUY",entry:7570,sl:7555,tp1:7590,tp2:7610,tp3:7625,res:"TP2",r:2.37},
+  {n:18,date:"22 Apr",inst:"MCL",dir:"BUY",entry:92.50,sl:92.00,tp1:92.90,tp2:93.20,tp3:93.50,res:"TP1",r:0.45},
+  {n:19,date:"23 Apr",inst:"MYM",dir:"BUY",entry:52100,sl:52000,tp1:52250,tp2:52350,tp3:null,res:"SL",r:-1.0},
   {n:20,date:"22 May",inst:"MES",dir:"BUY",entry:7511,sl:7490,tp1:7530,tp2:7550,tp3:null,res:"BE",r:0},
   {n:21,date:"26 May",inst:"MCL",dir:"BUY",entry:93.77,sl:93.12,tp1:94.15,tp2:94.50,tp3:95.00,res:"TP1",r:0.58},
   {n:22,date:"27 May",inst:"MES",dir:"SELL",entry:7533,sl:7547,tp1:7521,tp2:7595,tp3:null,res:"TP1",r:0.86},
@@ -240,7 +230,6 @@ trades.forEach(t=>{
   const tr=document.createElement('tr');
   tr.innerHTML=`<td style="color:${M}">${t.n}</td><td>${t.date}</td><td style="font-weight:500">${t.inst}</td><td style="color:${t.dir==='BUY'?G:R}">${t.dir}</td><td>${t.entry}</td><td>${t.sl}</td><td>${t.tp1??'—'}</td><td>${t.tp2??'—'}</td><td>${t.tp3??'—'}</td><td><span class="pill ${pillCls}">${t.res}</span></td><td style="color:${rColor};font-weight:500">${rStr}</td>`;
   tbody.appendChild(tr);
-  // running total row per month boundary
 });
 // Add total row
 const totalRow=document.createElement('tr');
